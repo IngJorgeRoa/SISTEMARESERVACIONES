@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/style.css">
+    <link rel="stylesheet" href="../public/boostrap.min.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" href="../public/icofont/icofont.min.css">
+    <title>LOGIN</title>
+</head>
+<body class="animate__animated animate__bounce" style="background-color: antiquewhite;">
+
+    
+            <div class="container m-2" id="div_login" >
+
+                <div class="row">
+                    <div class="col-12">
+                        <form action="ValidarLogin.php" method="post">
+                            <br>
+                            <div class="container text-center m-2"><h6><strong>INICIO DE SESIÓN</strong></h6></div>
+                            <br>
+                            <div class="container">
+                                <span class="input-group-text" ><i class="icofont-ui-user"></i></span> 
+                                <input class="form-control"  type="text" name="user" placeholder="user" required>
+                            </div>
+                            <div class="container">
+                                <span class="input-group-text" ><i class="icofont-ui-password"></i></span> 
+                                <input class="form-control "  type="password" name="password" placeholder="password" required>
+                            </div>
+                            <div class="text-center">
+                               <input type="submit" class="btn btn-info m-1 text-center" value="ACCEDER">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div> 
+    
+
+</body>
+</html>

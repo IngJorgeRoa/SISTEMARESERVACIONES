@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../public/boostrap.min.css">
+    <link rel="stylesheet" href="../../public/style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <title>DASHBOARD</title>
+</head>
+<body class="animate__animated animate__bounce">
+    <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-2 text-start bg-white text-white">
+            
+              <img src="../../public/img/LOGO.PNG" alt="" class="m-1"><br>
+                <h6 class="text-black m-1">BIENVENIDO</h6>
+                <br>
+                <div id="accordion">
+                    <h6 class="text-dark">SECCIÓN DE RESERVACIONES</h6>
+                    <div>
+                      <p class="text-dark">
+                        <ul>
+                            <a href="dashboard.html"><li class="text-dark">RESERVAR</li></a>
+                            <a href="dashboard.html"><li class="text-dark">RESERVADOS</li></a>
+                            <a href="../../login/login.html"><li class="text-dark">CERRAR SESIÓN</li></a>
+                          </ul>
+                      </p>
+                      <img src="" alt="">
+                    </div>
+                    <h6 class="text-dark">SECCIÓN PENDIENTE</h6>
+                    <div>
+                      <p class="text-dark">
+                      Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+                      purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+                      velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+                      suscipit faucibus urna.
+                      </p>
+                    </div>
+                    <h6 class="text-dark">SECCIÓN PENDIENTE</h6>
+                    <div>
+                      <p class="text-dark">
+                      Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+                      Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+                      ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+                      lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+                      </p>
+                      <ul>
+                        <li>List item one</li>
+                        <li>List item two</li>
+                        <li>List item three</li>
+                      </ul>
+                    </div>
+                    
+                  </div>
+          </div>
+          <div class="col-md-10 text-start">
+              <br>
+              <div class="container-fluid border border-dark m-1">
+                  <br>
+                  <div class="container m-1 text-center"><strong>RESERVAR</strong></div>
+                  <br>
+                  <h6 class="alert alert-danger">Para reservar debe de llenar los campos requeridos</h6>
+                  <br>
+                <form action="" method="post">
+                    <div class="mb-3">
+                        <input type="text" class="form-control border" placeholder="Nombre completo"> 
+                    </div>
+                    <div class="input-group">
+                        <select name="" id="" class="form-select">
+                            <option selected>Selecciona el número de cuarto disponible</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                        <select name="" id="" class="form-select">
+                            <option selected>Selecciona el tipo de cuarto</option>
+                            <option value="1"></option>
+                            <option value="2"></option>
+                            <option value="1"></option>
+                            <option value="1"></option>
+                            <option value="1"></option>
+                        </select>
+                    </div>
+                    <br>
+                    <div class="mb-3">
+                        <input type="text" id="demo"/>
+                    </div>
+                </form>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      
+
+      <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+      <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js" integrity="sha256-xH4q8N0pEzrZMaRmd7gQVcTZiFei+HfRTBPJ1OGXC0k=" crossorigin="anonymous"></script>
+      <script>
+        $( function() {
+          $( "#accordion" ).accordion();
+        } );
+        </script>
+</body>
+</html>

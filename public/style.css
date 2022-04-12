@@ -1,0 +1,21 @@
+.body{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    size: 15px;
+}
+
+#div_login{
+    background-color: white ;
+    border-radius: 20px;
+    box-shadow: 15px 15px 15px black;
+    width: 50%;
+    height: 270px;
+    position: relative;
+    top: 300px;
+    bottom: 60%;
+    left: 25%;
+}
+
+
+
+
